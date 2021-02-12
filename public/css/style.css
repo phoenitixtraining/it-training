@@ -1,0 +1,67 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+  /*on peu utiliser une autre source pour nos images example: url("/img/imageName.png");  1. Résolution: 1920px / 1280px ---2. format de fichier JPEG ---3. Le fichier est compressé (vous pouvez utiliser l' outil COMPRES JPG )*/
+    background: url("/home/phoenix/Documents/Projet/projet3/sujet 3/SiteBootstrap/Bootstrap-ciné/img/img/ban2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #c21ed193;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.navbar-brand{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.navbar-menu{
+float: left;
+}
+
+
+.navbar-menu a{
+  color: #ffffff;
+  margin-right: 5px;
+}
+.navbar-menu a:hover{
+  color: #1A1A6A;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.separator{
+  height: 2px;
+  width: 35%;
+  border: none;
+  box-shadow: none;
+  background-color: #1A1A1A;
+}
