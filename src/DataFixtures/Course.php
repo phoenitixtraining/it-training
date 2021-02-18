@@ -10,7 +10,7 @@ class Course extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        for ($i = 0; $i < 20; $i++) {
+        for ($i = 0; $i < 5; $i++) {
             $course = new EntityCourse();
             $course -> setTitle('Course num'.$i);
             $course-> setContent('<p>Le Lorem Ipsum est simplement du faux texte employé dans 

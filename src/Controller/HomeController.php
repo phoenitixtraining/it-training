@@ -24,4 +24,10 @@ class HomeController extends AbstractController
             'categories' => $categories
         ]);
     }
+
+    /**
+     * Display list course of one category
+     * 
+     * @Route()
+     */
 }

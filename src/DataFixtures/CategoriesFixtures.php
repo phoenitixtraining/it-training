@@ -18,7 +18,8 @@ class CategoriesFixtures extends Fixture
             la composition Le LoremLe Lorem Ipsum est simplement du faux texte employé dans la compositi on et la mise en page avant impression.
             Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
             page avant impression</p>');
-            $cat -> setImg("http://placehold.it/350x150");
+            $cat -> setImg("https://via.placeholder.com/350x150");
+            $cat -> setSlug('tyuiop');
         
             $manager->persist($cat);
 
